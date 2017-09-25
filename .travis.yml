@@ -1,0 +1,11 @@
+language: c
+
+branches:
+  only:
+  - master
+
+before_install:
+  - cd ./linux-c
+
+script:
+  - make
